@@ -2,12 +2,10 @@
     "$schema": "https://docs.renovatebot.com/renovate-schema.json",
     "extends": [
         "config:recommended",
-        ":assignAndReview(green1052)",
         ":automergeAll",
         ":automergeBranch",
         ":configMigration",
-        ":disableDependencyDashboard",
-        ":label(dependencies)"
+        ":disableDependencyDashboard"
     ],
     "packageRules": [
         {
@@ -15,9 +13,7 @@
             "rangeStrategy": "bump",
             "matchPackageNames": [
                 "*"
-            ],
-            "groupName": "all dependencies",
-            "groupSlug": "all"
+            ]
         }
     ]
 }
