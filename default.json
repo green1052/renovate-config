@@ -10,7 +10,6 @@
     ],
     "packageRules": [
         {
-            "ignoreTests": true,
             "rangeStrategy": "bump",
             "matchPackageNames": [
                 "*"
